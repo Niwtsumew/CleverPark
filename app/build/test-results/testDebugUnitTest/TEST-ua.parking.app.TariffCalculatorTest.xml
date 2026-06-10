@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ua.parking.app.TariffCalculatorTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2026-06-01T00:21:03.700Z" hostname="niwona" time="0.002">
+  <properties/>
+  <testcase name="Saltivska 20 UAH per hour for 70 minutes costs 23_34 UAH" classname="ua.parking.app.TariffCalculatorTest" time="0.0"/>
+  <testcase name="calculate exactly 1 minute at 60 UAH per hour returns 1 UAH" classname="ua.parking.app.TariffCalculatorTest" time="0.0"/>
+  <testcase name="calculate 30 minutes at 60 UAH per hour returns 30 UAH" classname="ua.parking.app.TariffCalculatorTest" time="0.0"/>
+  <testcase name="calculate 1 hour at 60 UAH per hour returns 60 UAH" classname="ua.parking.app.TariffCalculatorTest" time="0.001"/>
+  <testcase name="calculate 2 hours at 30 UAH per hour returns 60 UAH" classname="ua.parking.app.TariffCalculatorTest" time="0.0"/>
+  <testcase name="calculate returns zero for zero pricePerHour" classname="ua.parking.app.TariffCalculatorTest" time="0.0"/>
+  <testcase name="Pryvokazalna 30 UAH per hour for 45 minutes costs 22_50 UAH" classname="ua.parking.app.TariffCalculatorTest" time="0.0"/>
+  <testcase name="formatCost returns Безкоштовно for zero cost" classname="ua.parking.app.TariffCalculatorTest" time="0.0"/>
+  <testcase name="calculate 1 second rounds up to 1 billable minute" classname="ua.parking.app.TariffCalculatorTest" time="0.0"/>
+  <testcase name="calculate 61 seconds rounds up to 2 billable minutes" classname="ua.parking.app.TariffCalculatorTest" time="0.0"/>
+  <testcase name="formatCost formats non-zero cost with two decimal places" classname="ua.parking.app.TariffCalculatorTest" time="0.0"/>
+  <testcase name="calculate 90 minutes at 20 UAH per hour returns 30 UAH" classname="ua.parking.app.TariffCalculatorTest" time="0.0"/>
+  <testcase name="calculate returns zero when elapsed time is zero" classname="ua.parking.app.TariffCalculatorTest" time="0.0"/>
+  <testcase name="formatCost formats round number with two decimal places" classname="ua.parking.app.TariffCalculatorTest" time="0.0"/>
+  <testcase name="calculate returns zero for null pricePerHour" classname="ua.parking.app.TariffCalculatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ua.parking.app.UserBalanceTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-06-01T00:21:04.279Z" hostname="niwona" time="0.003">
+  <properties/>
+  <testcase name="topUp with zero returns false and does not change balance" classname="ua.parking.app.UserBalanceTest" time="0.0"/>
+  <testcase name="hasSufficientFunds returns true when balance is enough" classname="ua.parking.app.UserBalanceTest" time="0.0"/>
+  <testcase name="topUp with negative amount returns false" classname="ua.parking.app.UserBalanceTest" time="0.0"/>
+  <testcase name="multiple topUps accumulate balance" classname="ua.parking.app.UserBalanceTest" time="0.0"/>
+  <testcase name="preset top-up amounts are all valid" classname="ua.parking.app.UserBalanceTest" time="0.002"/>
+  <testcase name="deduct from zero balance returns false" classname="ua.parking.app.UserBalanceTest" time="0.0"/>
+  <testcase name="deduct exact balance amount succeeds and leaves zero balance" classname="ua.parking.app.UserBalanceTest" time="0.0"/>
+  <testcase name="hasSufficientFunds returns false when balance is insufficient" classname="ua.parking.app.UserBalanceTest" time="0.001"/>
+  <testcase name="hasSufficientFunds returns true for exact balance match" classname="ua.parking.app.UserBalanceTest" time="0.0"/>
+  <testcase name="deduct more than balance returns false and does not change balance" classname="ua.parking.app.UserBalanceTest" time="0.0"/>
+  <testcase name="topUp with positive amount increases balance correctly" classname="ua.parking.app.UserBalanceTest" time="0.0"/>
+  <testcase name="deduct less than balance succeeds and reduces balance" classname="ua.parking.app.UserBalanceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

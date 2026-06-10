@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="ua.parking.app.ui.splash.SplashFragment"
+        android:label="Splash"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_parkingListFragment"
+            app:destination="@id/parkingListFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="ua.parking.app.ui.auth.LoginFragment"
+        android:label="Вхід"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_parkingListFragment"
+            app:destination="@id/parkingListFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="ua.parking.app.ui.auth.RegisterFragment"
+        android:label="Реєстрація"
+        tools:layout="@layout/fragment_register">
+        <action
+            android:id="@+id/action_registerFragment_to_parkingListFragment"
+            app:destination="@id/parkingListFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/parkingListFragment"
+        android:name="ua.parking.app.ui.parking.ParkingListFragment"
+        android:label="Парковки"
+        tools:layout="@layout/fragment_parking_list">
+        <action
+            android:id="@+id/action_parkingListFragment_to_parkingDetailFragment"
+            app:destination="@id/parkingDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/parkingDetailFragment"
+        android:name="ua.parking.app.ui.parking.ParkingDetailFragment"
+        android:label="Деталі"
+        tools:layout="@layout/fragment_parking_detail">
+        <argument
+            android:name="parkingId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="ua.parking.app.ui.favorites.FavoritesFragment"
+        android:label="Улюблені"
+        tools:layout="@layout/fragment_favorites">
+        <action
+            android:id="@+id/action_favoritesFragment_to_parkingDetailFragment"
+            app:destination="@id/parkingDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="ua.parking.app.ui.profile.ProfileFragment"
+        android:label="Профіль"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profileFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_profileFragment_to_adminPanelFragment"
+            app:destination="@id/adminPanelFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/adminPanelFragment"
+        android:name="ua.parking.app.ui.admin.AdminPanelFragment"
+        android:label="Адмін панель"
+        tools:layout="@layout/fragment_admin_panel">
+        <action
+            android:id="@+id/action_adminPanelFragment_to_addEditParkingFragment"
+            app:destination="@id/addEditParkingFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addEditParkingFragment"
+        android:name="ua.parking.app.ui.admin.AddEditParkingFragment"
+        android:label="Редагування"
+        tools:layout="@layout/fragment_add_edit_parking">
+        <argument
+            android:name="parkingId"
+            app:argType="string"
+            android:defaultValue="" />
+    </fragment>
+
+</navigation>

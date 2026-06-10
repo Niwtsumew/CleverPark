@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/parkingListFragment"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:title="Головна" />
+    <item
+        android:id="@+id/favoritesFragment"
+        android:icon="@android:drawable/btn_star_big_off"
+        android:title="Улюблені" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Профіль" />
+</menu>

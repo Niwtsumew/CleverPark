@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green">#2E7D32</color>
+    <color name="md_theme_background">#FDFCFF</color>
+    <color name="md_theme_on_primary">#FFFFFF</color>
+    <color name="md_theme_primary">#1B6CA8</color>
+    <color name="md_theme_primary_container">#D1E4FF</color>
+    <color name="md_theme_secondary">#535F70</color>
+    <color name="md_theme_surface">#FDFCFF</color>
+    <color name="red">#C62828</color>
+    <color name="yellow">#F9A825</color>
+    <string name="app_name">CleverPark</string>
+    <string name="booking_already_booked">У вас вже є броня на цій парковці</string>
+    <string name="booking_freed">Місце звільнено</string>
+    <string name="booking_success">Місце заброньовано!</string>
+    <string name="booking_timer_label">Заброньовано: %s</string>
+    <string name="cost_preview_label">До сплати: %s</string>
+    <string name="default_web_client_id" translatable="false">539621363860-4h8k0ubnocb60m3r34ceb1tffqb7qn5h.apps.googleusercontent.com</string>
+    <string name="free_spots_format">Вільних: %d</string>
+    <string name="gcm_defaultSenderId" translatable="false">539621363860</string>
+    <string name="google_api_key" translatable="false">AIzaSyC6txA_xRwFchVCnvNrNofqeJtAdT55NPw</string>
+    <string name="google_app_id" translatable="false">1:539621363860:android:c3a674ca643afdad032481</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC6txA_xRwFchVCnvNrNofqeJtAdT55NPw</string>
+    <string name="google_storage_bucket" translatable="false">cleverpark.firebasestorage.app</string>
+    <string name="network_error">Помилка з\'єднання. Перевірте інтернет</string>
+    <string name="parking_free_label">Безкоштовно</string>
+    <string name="parking_full_error">Парковка заповнена. Немає вільних місць</string>
+    <string name="price_per_hour_format">%.2f грн/год</string>
+    <string name="project_id" translatable="false">cleverpark</string>
+    <string name="status_available">Є місця</string>
+    <string name="status_full">Повна</string>
+    <string name="total_spots_format">Всього місць: %d</string>
+    <style name="Theme.CleverPark" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/md_theme_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_on_primary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_primary_container</item>
+        <item name="android:colorBackground">@color/md_theme_background</item>
+        <item name="colorSurface">@color/md_theme_surface</item>
+    </style>
+</resources>

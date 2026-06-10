@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew assembleDebug)",
+      "Bash(./gradlew assembleDebug --stacktrace)",
+      "Bash(java -version)",
+      "Bash(grep -v \"^$\")",
+      "Bash(./gradlew assembleDebug --no-daemon --stacktrace)",
+      "Bash(./gradlew test *)",
+      "Bash(./gradlew installDebug)",
+      "Bash(./gradlew compileDebugKotlin)",
+      "Bash(./gradlew installDebug --stacktrace)",
+      "Bash(python3 -c \"import docx; print\\('python-docx ok'\\)\")"
+    ]
+  }
+}
