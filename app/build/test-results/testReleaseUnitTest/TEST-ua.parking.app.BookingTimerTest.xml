@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ua.parking.app.BookingTimerTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-06-01T00:21:04.257Z" hostname="niwona" time="0.002">
+  <properties/>
+  <testcase name="format shows hours minutes seconds when over 1 hour" classname="ua.parking.app.BookingTimerTest" time="0.001"/>
+  <testcase name="isOverLimit returns false when elapsed is under the limit" classname="ua.parking.app.BookingTimerTest" time="0.0"/>
+  <testcase name="getElapsed decomposes 3661 seconds into 1 hr 1 min 1 sec" classname="ua.parking.app.BookingTimerTest" time="0.0"/>
+  <testcase name="getElapsed returns null when bookedAt is in the future" classname="ua.parking.app.BookingTimerTest" time="0.0"/>
+  <testcase name="format shows only seconds when under 1 minute" classname="ua.parking.app.BookingTimerTest" time="0.0"/>
+  <testcase name="getElapsed decomposes 90 seconds into 1 min 30 sec" classname="ua.parking.app.BookingTimerTest" time="0.001"/>
+  <testcase name="getElapsed returns zero seconds when bookedAt equals now" classname="ua.parking.app.BookingTimerTest" time="0.0"/>
+  <testcase name="isOverLimit returns false when elapsed equals exactly the limit" classname="ua.parking.app.BookingTimerTest" time="0.0"/>
+  <testcase name="format shows minutes and seconds when under 1 hour" classname="ua.parking.app.BookingTimerTest" time="0.0"/>
+  <testcase name="isOverLimit returns true when elapsed exceeds the limit" classname="ua.parking.app.BookingTimerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ua.parking.app.CheckoutManagerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-06-01T00:21:04.262Z" hostname="niwona" time="0.002">
+  <properties/>
+  <testcase name="checkout with insufficient balance returns INSUFFICIENT_BALANCE" classname="ua.parking.app.CheckoutManagerTest" time="0.001"/>
+  <testcase name="checkout with zero balance returns INSUFFICIENT_BALANCE" classname="ua.parking.app.CheckoutManagerTest" time="0.0"/>
+  <testcase name="checkout with balance equal to cost returns SUCCESS and leaves zero balance" classname="ua.parking.app.CheckoutManagerTest" time="0.0"/>
+  <testcase name="checkout with sufficient balance returns SUCCESS and deducts cost" classname="ua.parking.app.CheckoutManagerTest" time="0.0"/>
+  <testcase name="full scenario - top up then park and checkout leaves correct remainder" classname="ua.parking.app.CheckoutManagerTest" time="0.0"/>
+  <testcase name="two sequential checkouts deduct from same balance correctly" classname="ua.parking.app.CheckoutManagerTest" time="0.0"/>
+  <testcase name="checkout free parking returns ZERO_COST and does not touch balance" classname="ua.parking.app.CheckoutManagerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

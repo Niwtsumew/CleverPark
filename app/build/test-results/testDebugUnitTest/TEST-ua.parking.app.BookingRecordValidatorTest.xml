@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ua.parking.app.BookingRecordValidatorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-06-01T00:21:03.680Z" hostname="niwona" time="0.001">
+  <properties/>
+  <testcase name="validate returns true for a well-formed BookingRecord" classname="ua.parking.app.BookingRecordValidatorTest" time="0.0"/>
+  <testcase name="validate returns false when bookedAt is zero" classname="ua.parking.app.BookingRecordValidatorTest" time="0.0"/>
+  <testcase name="validate returns false when userId is blank" classname="ua.parking.app.BookingRecordValidatorTest" time="0.0"/>
+  <testcase name="validate returns false when parkingId is blank" classname="ua.parking.app.BookingRecordValidatorTest" time="0.0"/>
+  <testcase name="validate returns false when bookedAt is negative" classname="ua.parking.app.BookingRecordValidatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

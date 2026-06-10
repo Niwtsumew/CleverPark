@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CleverPark</string>
+    <string name="status_available">Є місця</string>
+    <string name="status_full">Повна</string>
+    <string name="free_spots_format">Вільних: %d</string>
+    <string name="total_spots_format">Всього місць: %d</string>
+    <string name="booking_success">Місце заброньовано!</string>
+    <string name="parking_full_error">Парковка заповнена. Немає вільних місць</string>
+    <string name="network_error">Помилка з\'єднання. Перевірте інтернет</string>
+    <string name="booking_already_booked">У вас вже є броня на цій парковці</string>
+    <string name="booking_freed">Місце звільнено</string>
+    <string name="booking_timer_label">Заброньовано: %s</string>
+    <string name="price_per_hour_format">%.2f грн/год</string>
+    <string name="parking_free_label">Безкоштовно</string>
+    <string name="cost_preview_label">До сплати: %s</string>
+    <string name="default_web_client_id">539621363860-4h8k0ubnocb60m3r34ceb1tffqb7qn5h.apps.googleusercontent.com</string>
+</resources>

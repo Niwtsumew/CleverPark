@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ua.parking.app.ParkingFilterTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-06-01T00:21:04.268Z" hostname="niwona" time="0.001">
+  <properties/>
+  <testcase name="parking with positive pricePerHour is paid" classname="ua.parking.app.ParkingFilterTest" time="0.0"/>
+  <testcase name="parking with null pricePerHour is free" classname="ua.parking.app.ParkingFilterTest" time="0.0"/>
+  <testcase name="filter FREE_ONLY returns only free parking lots" classname="ua.parking.app.ParkingFilterTest" time="0.001"/>
+  <testcase name="filter FREE_ONLY on all-paid list returns empty" classname="ua.parking.app.ParkingFilterTest" time="0.0"/>
+  <testcase name="search then FREE_ONLY filter returns only free results" classname="ua.parking.app.ParkingFilterTest" time="0.0"/>
+  <testcase name="filter PAID_ONLY returns only paid parking lots" classname="ua.parking.app.ParkingFilterTest" time="0.0"/>
+  <testcase name="filter PAID_ONLY on all-free list returns empty" classname="ua.parking.app.ParkingFilterTest" time="0.0"/>
+  <testcase name="filter ALL returns full list" classname="ua.parking.app.ParkingFilterTest" time="0.0"/>
+  <testcase name="search then PAID_ONLY filter narrows results correctly" classname="ua.parking.app.ParkingFilterTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

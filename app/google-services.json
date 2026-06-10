@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "539621363860",
+    "project_id": "cleverpark",
+    "storage_bucket": "cleverpark.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539621363860:android:c3a674ca643afdad032481",
+        "android_client_info": {
+          "package_name": "ua.parking.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539621363860-jphkfb78orb62fi1amoq306isinjtrqs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ua.parking.app",
+            "certificate_hash": "64a263af9af5d314688dde49b00fdc836c984b29"
+          }
+        },
+        {
+          "client_id": "539621363860-4h8k0ubnocb60m3r34ceb1tffqb7qn5h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6txA_xRwFchVCnvNrNofqeJtAdT55NPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539621363860-4h8k0ubnocb60m3r34ceb1tffqb7qn5h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

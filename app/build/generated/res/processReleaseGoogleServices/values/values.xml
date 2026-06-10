@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">539621363860-4h8k0ubnocb60m3r34ceb1tffqb7qn5h.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">539621363860</string>
+    <string name="google_api_key" translatable="false">AIzaSyC6txA_xRwFchVCnvNrNofqeJtAdT55NPw</string>
+    <string name="google_app_id" translatable="false">1:539621363860:android:c3a674ca643afdad032481</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC6txA_xRwFchVCnvNrNofqeJtAdT55NPw</string>
+    <string name="google_storage_bucket" translatable="false">cleverpark.firebasestorage.app</string>
+    <string name="project_id" translatable="false">cleverpark</string>
+</resources>
