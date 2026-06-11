@@ -1,4 +1,4 @@
-#Mon Jun 01 02:22:51 CEST 2026
+#Thu Jun 11 16:22:22 CEST 2026
 base.0=/home/niwtsumew/IdeaProjects/CleverPark/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/home/niwtsumew/IdeaProjects/CleverPark/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.10=/home/niwtsumew/IdeaProjects/CleverPark/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
