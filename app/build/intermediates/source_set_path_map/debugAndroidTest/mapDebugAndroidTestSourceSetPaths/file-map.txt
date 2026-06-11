@@ -1,5 +1,0 @@
-ua.parking.app.test.app-androidTest-0 /home/niwtsumew/IdeaProjects/CleverPark/app/build/generated/res/resValues/androidTest/debug
-ua.parking.app.test.app-updated_navigation_xml-1 /home/niwtsumew/IdeaProjects/CleverPark/app/build/generated/updated_navigation_xml/debugAndroidTest
-ua.parking.app.test.app-mergeDebugAndroidTestResources-2 /home/niwtsumew/IdeaProjects/CleverPark/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
-ua.parking.app.test.app-mergeDebugAndroidTestResources-3 /home/niwtsumew/IdeaProjects/CleverPark/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
-ua.parking.app.test.app-debugAndroidTest-4 /home/niwtsumew/IdeaProjects/CleverPark/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

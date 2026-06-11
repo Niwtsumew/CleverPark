@@ -1,3 +1,11 @@
+### Android ###
+build/
+app/build/
+*.apk
+*.aab
+local.properties
+google-services.json
+
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/

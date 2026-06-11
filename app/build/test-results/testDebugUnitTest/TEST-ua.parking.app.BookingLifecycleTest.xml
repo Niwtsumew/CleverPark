@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ua.parking.app.BookingLifecycleTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-06-01T00:21:03.664Z" hostname="niwona" time="0.014">
-  <properties/>
-  <testcase name="full lifecycle - book then free restores free spots and removes record" classname="ua.parking.app.BookingLifecycleTest" time="0.006"/>
-  <testcase name="spot freed by user A allows user B to book successfully" classname="ua.parking.app.BookingLifecycleTest" time="0.001"/>
-  <testcase name="freeSpots stays consistent through multiple book and free operations" classname="ua.parking.app.BookingLifecycleTest" time="0.007"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
